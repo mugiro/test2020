@@ -18,7 +18,8 @@ APP_CONFIG = {
 }
 
 # For the docker
-APP_CONFIG['dir_data'] = '/var/www/data/'
+# APP_CONFIG['dir_data'] = '/var/www/data/'
+APP_CONFIG['dir_data'] = '/mnt/disk/data/'
 
 # For the local machine
 # APP_CONFIG['dir_data'] = '/Volumes/SEG_ARROYOS/data/'
