@@ -1,5 +1,5 @@
 APP_CONFIG = {
-    'path': '.',
+    'path': '/project/',
     'log_name': 'app',
     'log_file': 'logs/app.log',
     'ALLOWED_EXTENSIONS': ['csv', 'CSV'],
@@ -18,12 +18,7 @@ APP_CONFIG = {
 }
 
 # For the docker
-# APP_CONFIG['dir_data'] = '/var/www/data/'
 APP_CONFIG['dir_data'] = '/mnt/disk/data/'
-
-# For the local machine
-# APP_CONFIG['dir_data'] = '/Volumes/SEG_ARROYOS/data/'
-# APP_CONFIG['dir_data'] = '/Users/andres/temp/data/'
 
 APP_CONFIG['dir_cis'] = APP_CONFIG['dir_data'] + 'cis/'
 APP_CONFIG['dir_dbs'] = APP_CONFIG['dir_data'] + 'dbs/'
